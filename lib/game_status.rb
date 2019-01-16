@@ -39,5 +39,5 @@ def over?(board)
 end
 
 def winner?(board)
-  won?(board).first
+  return won?(board).first
 end
